@@ -1,0 +1,43 @@
+*{
+	overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: cursive;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: darkgray;
+}
+h2 , h1{
+	box-sizing: border-box;
+	margin-bottom: 14px;
+}
+
+.scure{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 366px;
+    height: 366px;
+    border: 1px solid black;
+}
+.mole{
+    background: url(./imges/twitter_icon.png) no-repeat;
+    background-position: center;
+    background-size: 98px;
+}
